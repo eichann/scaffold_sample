@@ -6,4 +6,8 @@ class Tweet < ApplicationRecord
   def fuga
     "関係のない変更"
   end
+
+  def piyo
+    "書き込んではいけない文字列"
+  end
 end

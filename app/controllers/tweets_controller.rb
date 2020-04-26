@@ -5,11 +5,13 @@ class TweetsController < ApplicationController
   # GET /tweets.json
   def index
     @tweets = Tweet.all
+    @hoge = "これをあとでなかったことにしたい"
   end
 
   # GET /tweets/1
   # GET /tweets/1.json
   def show
+    @fuga = "こっちは残しておきたい"
   end
 
   # GET /tweets/new

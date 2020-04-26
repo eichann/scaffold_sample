@@ -8,7 +8,6 @@ class Tweet < ApplicationRecord
   end
 
   def piyo
-    "書き込んではいけない文字列"
   end
 
   def poke

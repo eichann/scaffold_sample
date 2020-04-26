@@ -10,4 +10,8 @@ class Tweet < ApplicationRecord
   def piyo
     "書き込んではいけない文字列"
   end
+
+  def poke
+    "add3での関係ない変更"
+  end
 end

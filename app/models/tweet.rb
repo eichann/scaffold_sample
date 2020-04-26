@@ -9,4 +9,8 @@ class Tweet < ApplicationRecord
   def poke
     "add3での関係ない変更"
   end
+
+  def moge
+    "add5での関係ない変更"
+  end
 end

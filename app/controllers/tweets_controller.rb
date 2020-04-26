@@ -17,6 +17,7 @@ class TweetsController < ApplicationController
   # GET /tweets/new
   def new
     @tweet = Tweet.new
+    @piyo = "これも残しておきたい"
   end
 
   # GET /tweets/1/edit
